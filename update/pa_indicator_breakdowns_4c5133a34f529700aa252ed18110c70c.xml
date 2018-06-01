@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="QuoDroid Members">aab222674f9e5700aa252ed18110c77e</breakdown>
+        <display>true</display>
+        <indicator display_value="Daily Brake Factor">59fb8aa74f5e5700aa252ed18110c7b3</indicator>
+        <order>200</order>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-06-01 09:19:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c5133a34f529700aa252ed18110c70c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>QuoDroid Members.Daily Brake Factor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_4c5133a34f529700aa252ed18110c70c</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-01 09:19:19</sys_updated_on>
+    </pa_indicator_breakdowns>
+</record_update>

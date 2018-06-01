@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="planned_task" label="Requirement" max_length="40" name="dmn_requirement" sizeclass="60" type="collection">
+        <element label="Project" max_length="32" name="x_224218_itsom_project" reference="pm_project" type="reference"/>
+    </element>
+</database>

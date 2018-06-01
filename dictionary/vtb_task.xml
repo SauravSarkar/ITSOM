@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Private Task" max_length="40" name="vtb_task" sizeclass="112" text_index="true" type="collection">
+        <element label="Actual hours" max_length="40" name="x_224218_itsom_actual_hours" type="glide_duration"/>
+        <element label="Collaborators" max_length="4000" name="x_224218_itsom_collaborators" reference="sys_user" type="glide_list"/>
+        <element label="Dependent on task" max_length="32" name="x_224218_itsom_dependent_on_task" reference="task" type="reference"/>
+        <element label="Estimated Hours" max_length="40" name="x_224218_itsom_estimated_hours" type="glide_duration"/>
+        <element label="Project" max_length="32" name="x_224218_itsom_project" reference="pm_project" type="reference"/>
+    </element>
+</database>

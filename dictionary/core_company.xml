@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="global_search_config_handler=CompanySearchConfig,all_tables.text_index_translations=true" create_roles="user_admin" label="Company" max_length="40" name="core_company" text_index="true" type="collection">
+        <element label="Customer Group" max_length="32" name="x_224218_itsom_customer_group" reference="core_company" reference_qual="customer=true^parentISEMPTY^EQ" reference_qual_condition="customer=true^parentISEMPTY^EQ" type="reference"/>
+        <index name="index">
+            <element name="x_224218_itsom_customer_group"/>
+        </index>
+    </element>
+</database>

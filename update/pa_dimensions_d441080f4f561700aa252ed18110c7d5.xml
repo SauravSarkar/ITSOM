@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_dimensions">
+    <pa_dimensions action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="core_company">active=true^customer=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="customer" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        </conditions>
+        <description/>
+        <empty_value/>
+        <facts_table>core_company</facts_table>
+        <field>sys_id</field>
+        <manual_breakdown/>
+        <name>Customer.active</name>
+        <security_type>1</security_type>
+        <sys_class_name>pa_dimensions</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-05-30 02:33:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d441080f4f561700aa252ed18110c7d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer.active</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>pa_dimensions_d441080f4f561700aa252ed18110c7d5</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-05-30 02:33:32</sys_updated_on>
+    </pa_dimensions>
+    <sys_translated_text action="delete_multiple" query="documentkey=d441080f4f561700aa252ed18110c7d5"/>
+</record_update>

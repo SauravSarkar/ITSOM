@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysauto_pa">
+    <sysauto_pa action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <benchmarking>false</benchmarking>
+        <collect>scores_text</collect>
+        <condition/>
+        <conditional>false</conditional>
+        <description>Performance Analytics Historic Data Collection for the limited edition set of indicators.&#13;
+Note that this job collects scores for multiple days. It is advised to collect only for a few days in one run depending on configuration.&#13;
+		</description>
+        <kill_job>false</kill_job>
+        <name>[PA ITSOM] Historic Data Collection</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2014-03-11 09:39:37</run_start>
+        <run_time>1969-12-31 23:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <score_fixed_end>00000000</score_fixed_end>
+        <score_fixed_start>00000000</score_fixed_start>
+        <score_operator>relative</score_operator>
+        <score_relative_end>1</score_relative_end>
+        <score_relative_end_interval>days</score_relative_end_interval>
+        <score_relative_start>50</score_relative_start>
+        <score_relative_start_interval>days</score_relative_start_interval>
+        <sys_class_name>sysauto_pa</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-05-30 02:42:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a63888f4f561700aa252ed18110c711</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>[PA ITSOM] Historic Data Collection</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sysauto_pa_1a63888f4f561700aa252ed18110c711</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-05-30 17:46:13</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_pa>
+    <sys_translated_text action="delete_multiple" query="documentkey=1a63888f4f561700aa252ed18110c711"/>
+</record_update>

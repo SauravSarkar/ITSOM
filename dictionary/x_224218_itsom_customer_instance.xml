@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Customer Instance" max_length="40" name="x_224218_itsom_customer_instance" type="collection">
+        <element label="Customer" max_length="32" name="customer" reference="core_company" reference_qual="customer=true^EQ" reference_qual_condition="customer=true^EQ" type="reference"/>
+        <element label="Instance" max_length="32" name="instance" reference="x_224218_itsom_instance" type="reference"/>
+        <index name="index">
+            <element name="instance"/>
+        </index>
+        <index name="index2">
+            <element name="customer"/>
+        </index>
+    </element>
+</database>
