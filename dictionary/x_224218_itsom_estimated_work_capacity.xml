@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Estimated Work Capacity" max_length="40" name="x_224218_itsom_estimated_work_capacity" type="collection">
+        <element label="Breakdown" max_length="40" name="breakdown" reference="pa_breakdowns" reference_key="id" type="reference"/>
+        <element label="Element" max_length="100" name="element" type="string"/>
+        <element label="Member" max_length="32" name="member" reference="sys_user" type="reference"/>
+        <element label="Start at" max_length="40" name="start_at" type="glide_date"/>
+        <element label="Value" max_length="18" name="value" type="decimal"/>
+        <element label="Work Capacity" max_length="40" name="work_capacity" type="glide_duration"/>
+        <index name="index">
+            <element name="breakdown"/>
+        </index>
+        <index name="index2">
+            <element name="member"/>
+        </index>
+    </element>
+</database>

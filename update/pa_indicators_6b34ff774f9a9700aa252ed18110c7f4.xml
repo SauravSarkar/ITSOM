@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="pa_indicators">
     <pa_indicators action="INSERT_OR_UPDATE">
-        <aggregate>1</aggregate>
+        <aggregate>4</aggregate>
         <benchmarking>false</benchmarking>
-        <collect_breakdown_matrix>false</collect_breakdown_matrix>
+        <collect_breakdown_matrix>true</collect_breakdown_matrix>
         <collect_records>true</collect_records>
         <conditions/>
         <contributor/>
-        <cube/>
+        <cube display_value="Work done today">156cf3ba4f561700aa252ed18110c752</cube>
         <data_source/>
         <default_aggregate/>
         <default_chart_type>line</default_chart_type>
-        <description/>
+        <description>Daily Brake Factor is measured daily as unit .
+The goal for this indicator is to minimize.
+It is the average on data source Work done today, which is using the table: 
+x_224218_itsom_to_do_list
+with the following conditions:
+Actual hours is not empty .and. Actual start on Today</description>
         <direction>3</direction>
         <display>false</display>
-        <field/>
+        <field>active</field>
         <forecast_base_periods>2</forecast_base_periods>
         <forecast_base_start>00000000</forecast_base_start>
         <forecast_base_type>1</forecast_base_type>
         <forecast_method>1</forecast_method>
         <forecast_periods>2</forecast_periods>
-        <formula>(8*[[16ee1aa34f9e5700aa252ed18110c769]])/[[59fb8aa74f5e5700aa252ed18110c7b3]]</formula>
+        <formula/>
         <formula_aggregate_whole>false</formula_aggregate_whole>
         <frequency>10</frequency>
         <groups/>
         <has_managed_indicators>false</has_managed_indicators>
-        <id>283</id>
+        <id>284</id>
         <key>true</key>
         <label/>
         <linked_indicator/>
@@ -33,43 +38,43 @@
         <managed_breakdown/>
         <managed_element/>
         <managing_indicator/>
-        <name>QuoDroid Capacity</name>
+        <name>Daily Capacity</name>
         <order/>
         <override_periods>false</override_periods>
         <precision>2</precision>
         <related_breakdowns>2</related_breakdowns>
-        <related_jobs>0</related_jobs>
+        <related_jobs>2</related_jobs>
         <render_continuous_lines>false</render_continuous_lines>
         <role_override>true</role_override>
         <roles/>
         <score_periods>-1</score_periods>
-        <scores_modified_at/>
-        <script/>
-        <scripted>false</scripted>
+        <scores_modified_at>2018-06-03 04:00:01</scores_modified_at>
+        <script display_value="Work.Capacity">a942ff374f9a9700aa252ed18110c718</script>
+        <scripted>true</scripted>
         <show_delta>true</show_delta>
         <show_realtime_score>false</show_realtime_score>
         <snapshot_periods>-1</snapshot_periods>
         <sql_statement/>
         <sys_class_name>pa_indicators</sys_class_name>
         <sys_created_by>saurav.sarkar</sys_created_by>
-        <sys_created_on>2018-06-01 03:29:36</sys_created_on>
+        <sys_created_on>2018-06-02 04:10:36</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>ca802ee34f9e5700aa252ed18110c7c8</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>QuoDroid Capacity</sys_name>
+        <sys_id>6b34ff774f9a9700aa252ed18110c7f4</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Daily Capacity</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
-        <sys_update_name>pa_indicators_ca802ee34f9e5700aa252ed18110c7c8</sys_update_name>
+        <sys_update_name>pa_indicators_6b34ff774f9a9700aa252ed18110c7f4</sys_update_name>
         <sys_updated_by>saurav.sarkar</sys_updated_by>
-        <sys_updated_on>2018-06-01 09:27:03</sys_updated_on>
-        <type>2</type>
+        <sys_updated_on>2018-06-02 07:04:47</sys_updated_on>
+        <type>1</type>
         <unit display_value="Hours">2ef365e2d7320100ba986f14ce6103e2</unit>
         <users/>
         <value_when_nil/>
         <visible_to>2</visible_to>
     </pa_indicators>
-    <sys_translated_text action="delete_multiple" query="documentkey=ca802ee34f9e5700aa252ed18110c7c8"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6b34ff774f9a9700aa252ed18110c7f4"/>
 </record_update>

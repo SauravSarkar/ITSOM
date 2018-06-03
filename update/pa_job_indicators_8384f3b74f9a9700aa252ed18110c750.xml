@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_job_indicators">
+    <pa_job_indicators action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <collect>1</collect>
+        <collect_indicator>true</collect_indicator>
+        <display>[PA ITSOM] Historic Data Collection - Daily Capacity</display>
+        <indicator display_value="Daily Capacity">6b34ff774f9a9700aa252ed18110c7f4</indicator>
+        <job display_value="[PA ITSOM] Historic Data Collection">1a63888f4f561700aa252ed18110c711</job>
+        <sys_class_name>pa_job_indicators</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-06-02 04:11:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8384f3b74f9a9700aa252ed18110c750</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Daily Capacity.[PA ITSOM] Historic Data Collection</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>pa_job_indicators_8384f3b74f9a9700aa252ed18110c750</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-02 04:11:56</sys_updated_on>
+    </pa_job_indicators>
+</record_update>

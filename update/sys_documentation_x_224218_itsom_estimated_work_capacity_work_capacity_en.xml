@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="work_capacity" label="Work Capacity" language="en" table="x_224218_itsom_estimated_work_capacity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>work_capacity</element>
+            <help/>
+            <hint/>
+            <label>Work Capacity</label>
+            <language>en</language>
+            <name>x_224218_itsom_estimated_work_capacity</name>
+            <plural>Work Capacities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-06-02 07:03:20</sys_created_on>
+            <sys_id>31cbd08c4fea9700aa252ed18110c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Work Capacity</sys_name>
+            <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+            <sys_update_name>sys_documentation_x_224218_itsom_estimated_work_capacity_work_capacity_en</sys_update_name>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-06-02 07:03:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

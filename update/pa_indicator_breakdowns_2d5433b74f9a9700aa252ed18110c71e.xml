@@ -3,23 +3,23 @@
     <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
         <breakdown display_value="QuoDroid Departments">da7c1a234f9e5700aa252ed18110c711</breakdown>
         <display>true</display>
-        <indicator display_value="QuoDroid Capacity">ca802ee34f9e5700aa252ed18110c7c8</indicator>
+        <indicator display_value="Daily Capacity">6b34ff774f9a9700aa252ed18110c7f4</indicator>
         <order>100</order>
         <sql_statement/>
         <sys_class_name>pa_indicator_breakdowns</sys_class_name>
         <sys_created_by>saurav.sarkar</sys_created_by>
-        <sys_created_on>2018-06-01 03:31:16</sys_created_on>
+        <sys_created_on>2018-06-02 04:11:01</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2da1eee34f9e5700aa252ed18110c78c</sys_id>
+        <sys_id>2d5433b74f9a9700aa252ed18110c71e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>QuoDroid Departments.QuoDroid Capacity</sys_name>
+        <sys_name>QuoDroid Departments.Daily Capacity</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
-        <sys_update_name>pa_indicator_breakdowns_2da1eee34f9e5700aa252ed18110c78c</sys_update_name>
+        <sys_update_name>pa_indicator_breakdowns_2d5433b74f9a9700aa252ed18110c71e</sys_update_name>
         <sys_updated_by>saurav.sarkar</sys_updated_by>
-        <sys_updated_on>2018-06-01 03:31:16</sys_updated_on>
+        <sys_updated_on>2018-06-02 04:11:01</sys_updated_on>
     </pa_indicator_breakdowns>
 </record_update>

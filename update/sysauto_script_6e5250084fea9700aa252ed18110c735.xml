@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Repopulate the Work Capacity table</name>
+        <run_as display_value="Saurav Sarkar">60a465684f0ed300aa252ed18110c7cc</run_as>
+        <run_as_tz>IST</run_as_tz>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-06-02 06:22:09</run_start>
+        <run_time>1970-01-01 20:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var memberBreakDownID = 'aab222674f9e5700aa252ed18110c77e';
+var departmentBreakDownID = 'da7c1a234f9e5700aa252ed18110c711';
+var today = new GlideDateTime();
+
+dailyDataCollection();
+//historicDataCollection(30);
+projectedDataCollection(15);
+
+function deleteCapacityRecords(query){
+	var oldRecords = new GlideRecord('x_224218_itsom_estimated_work_capacity');
+	oldRecords.addQuery(query);
+	oldRecords.deleteMultiple();
+}
+function dailyDataCollection(){
+	//Delete Today's Records
+	deleteCapacityRecords('start_at=' + today.getDate().toString()); //Delete Today's Records
+	collectCapacityData(today.getDate().toString());
+}
+function historicDataCollection(numberOfDays){
+	deleteCapacityRecords('start_at<' + today.getDate().toString()); //Delete all historic Records
+	var day = new GlideDateTime();
+	day.addDaysUTC((-1)*numberOfDays);
+	for(var daysAgo = numberOfDays; daysAgo > 0; daysAgo--){
+		collectCapacityData(day.getDate().toString());
+		day.addDaysUTC(1);
+	}
+}
+function projectedDataCollection(numberOfDays){
+	deleteCapacityRecords('start_at>' + today.getDate().toString()); //Delete existing future data
+	var day = new GlideDateTime();
+	for(var daysAdded = 1; daysAdded <= numberOfDays; daysAdded++){
+		day.addDaysUTC(1);
+		collectCapacityData(day.getDate().toString());
+	}
+}
+function collectCapacityData(date){
+	collectBreakDownData(memberBreakDownID,date);
+	collectBreakDownData(departmentBreakDownID,date);
+}
+function collectBreakDownData(breakDownSysID,date){
+	var breakDown = new GlideRecord('pa_breakdowns');
+	if(breakDown.get(breakDownSysID)){
+		//Get the elements of the breakdown
+		var elements = new GlideRecord(breakDown.dimension.facts_table.toString());
+		elements.addQuery(breakDown.dimension.conditions.toString());
+		elements.query();
+		while(elements.next()){
+			createCapacityRecord(breakDown.id.toString(),elements.getDisplayValue(),elements.sys_id,date);
+		}
+	}
+}
+
+function createCapacityRecord(breakDownID,elementValue,elementID,date){
+	var wrkCapacity = new GlideRecord('x_224218_itsom_estimated_work_capacity'); //New work capacity record
+	wrkCapacity.initialize();
+	wrkCapacity.breakdown = breakDownID;
+	wrkCapacity.element = elementValue;
+	wrkCapacity.start_at = date;
+	
+	//If the element is a user, add to the member field
+	var user = new GlideRecord('sys_user');
+	if(user.get(elementID)){
+		wrkCapacity.member = elementID;
+	}
+	
+	//Find the minimum capacity in the past 30 days
+	var startAt = new GlideDateTime(date);
+	startAt.addDaysUTC(-30);
+	var daysAgo30 = startAt.getDate().toString().replace(/-/g,"");
+	
+	//Query the score table to get the minimum score
+	var minScore = new GlideRecord('pa_scores_l1');
+	minScore.addQuery('indicator=284^breakdown=' + breakDownID + '^element=' + elementID + '^start_at>' + daysAgo30 + '^start_at<=' + date.replace(/-/g,""));
+	minScore.orderBy('value');
+	minScore.setLimit(1);
+	minScore.query();
+	if(minScore.next()){
+		wrkCapacity.value = minScore.value;
+		wrkCapacity.work_capacity = new GlideDuration(minScore.value*60*60*1000);
+	}
+	
+	wrkCapacity.insert();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-06-02 06:22:50</sys_created_on>
+        <sys_id>6e5250084fea9700aa252ed18110c735</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Repopulate the Work Capacity table</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sysauto_script_6e5250084fea9700aa252ed18110c735</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-03 03:40:33</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
