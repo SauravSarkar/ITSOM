@@ -48,7 +48,7 @@ Actual hours is not empty .and. Actual start on Today</description>
         <role_override>true</role_override>
         <roles/>
         <score_periods>-1</score_periods>
-        <scores_modified_at>2018-06-03 04:00:01</scores_modified_at>
+        <scores_modified_at>2018-06-10 16:57:45</scores_modified_at>
         <script display_value="Work.BrakeFactor">874d8a274f5e5700aa252ed18110c7f2</script>
         <scripted>true</scripted>
         <show_delta>true</show_delta>

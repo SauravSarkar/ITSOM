@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="planned_task" label="Requirement" max_length="40" name="dmn_requirement" sizeclass="65" type="collection">
+    <element audit="true" extends="planned_task" label="Requirement" max_length="40" name="dmn_requirement" sizeclass="95" type="collection">
+        <element choice="3" default="analyse" label="Phase" max_length="40" name="x_224218_itsom_phase" type="choice">
+            <choice>
+                <element label="Analyse" sequence="10" value="analyse"/>
+                <element label="Build" sequence="20" value="build"/>
+                <element label="Test" sequence="30" value="test"/>
+                <element label="Bug Fix" sequence="40" value="bug_fix"/>
+                <element label="Deploy" sequence="50" value="deploy"/>
+                <element label="Complete" sequence="60" value="complete"/>
+            </choice>
+        </element>
         <element label="Project" max_length="32" name="x_224218_itsom_project" reference="pm_project" type="reference"/>
     </element>
 </database>

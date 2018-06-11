@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_breakdowns">
+    <pa_breakdowns action="INSERT_OR_UPDATE">
+        <data_source/>
+        <default_filter/>
+        <description/>
+        <dimension display_value="ToDoList.States">f99ec5d44fa6d700aa252ed18110c752</dimension>
+        <display>true</display>
+        <facts_table/>
+        <field/>
+        <groups/>
+        <id>68</id>
+        <name>To Do List States</name>
+        <role_override>true</role_override>
+        <roles/>
+        <script/>
+        <scripted>false</scripted>
+        <sql_statement/>
+        <sys_class_name>pa_breakdowns</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-06-03 05:28:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7a8f09584fa6d700aa252ed18110c7f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>To Do List States</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>pa_breakdowns_7a8f09584fa6d700aa252ed18110c7f7</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-03 05:28:15</sys_updated_on>
+        <type>1</type>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_breakdowns>
+    <sys_translated_text action="delete_multiple" query="documentkey=7a8f09584fa6d700aa252ed18110c7f7"/>
+</record_update>

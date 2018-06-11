@@ -8,10 +8,31 @@
 	return (new GlideDateTime(date)).getNumericValue();
 }
 function calculateBrakeFactor(){
-	return (getMilliSeconds(current.actual_hours)/getMilliSeconds(current.estimated_hours));
+	var estimatedTime = 0;
+	var actualTime = 0;
+	
+	if(current.actual_hours){
+		actualTime = getMilliSeconds(current.actual_hours);
+	}
+	if(current.estimated_hours){
+		estimatedTime = getMilliSeconds(current.estimated_hours);
+	}
+	else{
+		estimatedTime = actualTime;
+	}
+	
+	if(estimatedTime){
+		
+		return (actualTime/estimatedTime);
+	}
+	return 0;
 }
 function calculateCapacity(){
-	return 8/calculateBrakeFactor();
+	if(calculateBrakeFactor()){
+		return 8/calculateBrakeFactor();
+	}
+	else
+		return 8;
 }
 calculateCapacity();]]></script>
         <sys_class_name>pa_scripts</sys_class_name>
@@ -20,7 +41,7 @@ calculateCapacity();]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a942ff374f9a9700aa252ed18110c718</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Work.Capacity</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
@@ -28,7 +49,7 @@ calculateCapacity();]]></script>
         <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
         <sys_update_name>pa_scripts_a942ff374f9a9700aa252ed18110c718</sys_update_name>
         <sys_updated_by>saurav.sarkar</sys_updated_by>
-        <sys_updated_on>2018-06-02 04:02:00</sys_updated_on>
+        <sys_updated_on>2018-06-10 16:57:16</sys_updated_on>
         <table>x_224218_itsom_to_do_list</table>
     </pa_scripts>
     <sys_translated_text action="delete_multiple" query="documentkey=a942ff374f9a9700aa252ed18110c718"/>

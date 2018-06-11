@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="To Do List" max_length="40" name="x_224218_itsom_to_do_list" sizeclass="104" type="collection">
-        <element label="Actual hours" max_length="40" name="actual_hours" type="glide_duration"/>
-        <element label="Estimated hours" max_length="40" name="estimated_hours" type="glide_duration"/>
+    <element attributes="calendar_elements=short_description" audit="true" extends="task" label="To Do List" max_length="40" name="x_224218_itsom_to_do_list" sizeclass="171" type="collection">
+        <element label="Time to completion" max_length="40" name="actual_hours" type="glide_duration"/>
+        <element label="Estimated hours" mandatory="true" max_length="40" name="estimated_hours" type="glide_duration"/>
         <element label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
         <element label="Requirement" max_length="32" name="requirement" reference="dmn_requirement" type="reference"/>
         <element choice="3" default="development" label="Type" max_length="40" name="type" type="choice">

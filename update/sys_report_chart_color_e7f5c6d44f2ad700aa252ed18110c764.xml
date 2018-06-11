@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_report_chart_color">
+    <sys_report_chart_color action="INSERT_OR_UPDATE">
+        <color/>
+        <color_name display_value="BluePalette_3">01604840d7333100b4964ebfae610321</color_name>
+        <display>background-color:#879BDD</display>
+        <element>state</element>
+        <name>x_224218_itsom_to_do_list</name>
+        <sys_class_name>sys_report_chart_color</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-06-03 09:25:53</sys_created_on>
+        <sys_id>e7f5c6d44f2ad700aa252ed18110c764</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_224218_itsom_to_do_list</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sys_report_chart_color_e7f5c6d44f2ad700aa252ed18110c764</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-03 09:25:53</sys_updated_on>
+        <value>-5</value>
+    </sys_report_chart_color>
+</record_update>

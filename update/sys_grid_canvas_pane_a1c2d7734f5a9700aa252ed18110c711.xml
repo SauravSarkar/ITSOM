@@ -2,22 +2,22 @@
 <record_update table="sys_grid_canvas_pane">
     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
         <grid_canvas display_value="PA New Tab">9d72d3fb4f969700aa252ed18110c70f</grid_canvas>
-        <height>17</height>
-        <portal_widget display_value="Created 2018-06-01 18:44:22">29c2d7734f5a9700aa252ed18110c70d</portal_widget>
+        <height>13</height>
+        <portal_widget display_value="Created 2018-06-02 07:14:22">29c2d7734f5a9700aa252ed18110c70d</portal_widget>
         <posx>0</posx>
         <posy>0</posy>
         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
         <sys_created_by>saurav.sarkar</sys_created_by>
         <sys_created_on>2018-06-02 01:44:22</sys_created_on>
         <sys_id>a1c2d7734f5a9700aa252ed18110c711</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>32</sys_mod_count>
         <sys_name>9d72d3fb4f969700aa252ed18110c70f</sys_name>
         <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
         <sys_update_name>sys_grid_canvas_pane_a1c2d7734f5a9700aa252ed18110c711</sys_update_name>
         <sys_updated_by>saurav.sarkar</sys_updated_by>
-        <sys_updated_on>2018-06-03 03:51:10</sys_updated_on>
+        <sys_updated_on>2018-06-03 11:05:28</sys_updated_on>
         <width>12</width>
     </sys_grid_canvas_pane>
 </record_update>

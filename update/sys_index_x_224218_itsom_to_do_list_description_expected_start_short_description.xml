@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>description,expected_start,short_description</col_name_string>
+        <index_col_name>c87df166b92013006517ce7df7ee46d5,b4000eaeb96013006517ce7df7ee4608,c47df166b92013006517ce7df7ee46d1</index_col_name>
+        <logical_table_name>x_224218_itsom_to_do_list</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-05 08:29:32</sys_created_on>
+        <sys_id>714cc4814f225b00aa252ed18110c799</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_224218_itsom_to_do_list</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sys_index_x_224218_itsom_to_do_list_description_expected_start_short_description</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-05 08:29:32</sys_updated_on>
+        <table display_value="To Do List" name="x_224218_itsom_to_do_list">de902a764f921700aa252ed18110c74b</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

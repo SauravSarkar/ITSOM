@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab 3">a955721c4f6ad700aa252ed18110c75e</grid_canvas>
+        <height>12</height>
+        <portal_widget display_value="Created 2018-06-03 18:39:05">c51972d44faad700aa252ed18110c75f</portal_widget>
+        <posx>0</posx>
+        <posy>11</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-06-03 13:09:05</sys_created_on>
+        <sys_id>051972d44faad700aa252ed18110c761</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>a955721c4f6ad700aa252ed18110c75e</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_051972d44faad700aa252ed18110c761</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-06 03:45:18</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

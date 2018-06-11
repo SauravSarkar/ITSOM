@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="customer" label="Customer" language="en" table="x_224218_itsom_provisional_invoice_task_details">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>customer</element>
+            <help/>
+            <hint/>
+            <label>Customer</label>
+            <language>en</language>
+            <name>x_224218_itsom_provisional_invoice_task_details</name>
+            <plural>Customers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-06-05 10:09:34</sys_created_on>
+            <sys_id>0b236c094f625b00aa252ed18110c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Customer</sys_name>
+            <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+            <sys_update_name>sys_documentation_x_224218_itsom_provisional_invoice_task_details_customer_en</sys_update_name>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-06-05 10:09:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

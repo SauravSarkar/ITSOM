@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="90a3132d4faa9b00aa252ed18110c71b" sys_domain="global" table="x_224218_itsom_to_do_list" version="3" view="vtb">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-06-07 12:44:04</sys_created_on>
+            <sys_id>e5b91bed4faa9b00aa252ed18110c703</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224218_itsom_to_do_list" sys_domain="global" view="0783336247231100ba13a5554ee490e7">90a3132d4faa9b00aa252ed18110c71b</sys_ui_section>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-06-07 12:44:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>1</position>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-06-07 12:44:04</sys_created_on>
+            <sys_id>69b91bed4faa9b00aa252ed18110c703</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224218_itsom_to_do_list" sys_domain="global" view="0783336247231100ba13a5554ee490e7">90a3132d4faa9b00aa252ed18110c71b</sys_ui_section>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-06-07 12:44:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-06-07 12:44:04</sys_created_on>
+            <sys_id>e9b91bed4faa9b00aa252ed18110c703</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224218_itsom_to_do_list" sys_domain="global" view="0783336247231100ba13a5554ee490e7">90a3132d4faa9b00aa252ed18110c71b</sys_ui_section>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-06-07 12:44:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>3</position>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-06-07 12:44:04</sys_created_on>
+            <sys_id>6db91bed4faa9b00aa252ed18110c703</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224218_itsom_to_do_list" sys_domain="global" view="0783336247231100ba13a5554ee490e7">90a3132d4faa9b00aa252ed18110c71b</sys_ui_section>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-06-07 12:44:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>actual_hours</element>
+            <position>4</position>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-06-07 12:44:04</sys_created_on>
+            <sys_id>edb91bed4faa9b00aa252ed18110c703</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224218_itsom_to_do_list" sys_domain="global" view="0783336247231100ba13a5554ee490e7">90a3132d4faa9b00aa252ed18110c71b</sys_ui_section>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-06-07 12:44:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-06-07 12:44:04</sys_created_on>
+            <sys_id>61b91bed4faa9b00aa252ed18110c704</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224218_itsom_to_do_list" sys_domain="global" view="0783336247231100ba13a5554ee490e7">90a3132d4faa9b00aa252ed18110c71b</sys_ui_section>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-06-07 12:44:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>6</position>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-06-07 12:44:04</sys_created_on>
+            <sys_id>e1b91bed4faa9b00aa252ed18110c704</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224218_itsom_to_do_list" sys_domain="global" view="0783336247231100ba13a5554ee490e7">90a3132d4faa9b00aa252ed18110c71b</sys_ui_section>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-06-07 12:44:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>7</position>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-06-07 12:44:04</sys_created_on>
+            <sys_id>65b91bed4faa9b00aa252ed18110c704</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_224218_itsom_to_do_list" sys_domain="global" view="0783336247231100ba13a5554ee490e7">90a3132d4faa9b00aa252ed18110c71b</sys_ui_section>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-06-07 12:44:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_224218_itsom_to_do_list</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-06-07 12:17:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>90a3132d4faa9b00aa252ed18110c71b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_224218_itsom_to_do_list</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+            <sys_update_name>sys_ui_section_90a3132d4faa9b00aa252ed18110c71b</sys_update_name>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-06-07 12:17:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="VTB" name="vtb">0783336247231100ba13a5554ee490e7</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

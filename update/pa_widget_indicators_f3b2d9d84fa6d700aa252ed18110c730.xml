@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_widget_indicators">
+    <pa_widget_indicators action="INSERT_OR_UPDATE">
+        <aggregate/>
+        <breakdown display_value="To Do List States">7a8f09584fa6d700aa252ed18110c7f7</breakdown>
+        <breakdown_level2/>
+        <chart_type>stacked</chart_type>
+        <color display_value="UI14 Yellow">ce56c9b3d7332100fa6c0c12ce610334</color>
+        <element>2</element>
+        <element_level2/>
+        <follow_element>false</follow_element>
+        <follow_managed_element>false</follow_managed_element>
+        <followed_breakdown/>
+        <indicator display_value="Count of Daily Planned Tasks">461c09d44fa6d700aa252ed18110c727</indicator>
+        <label>In Progress</label>
+        <order>-400</order>
+        <second_y_axis>false</second_y_axis>
+        <sys_class_name>pa_widget_indicators</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-06-03 05:41:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f3b2d9d84fa6d700aa252ed18110c730</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>In Progress</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>pa_widget_indicators_f3b2d9d84fa6d700aa252ed18110c730</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-03 10:56:31</sys_updated_on>
+        <widget display_value="Tasks Planned This Month">1d8095984fa6d700aa252ed18110c789</widget>
+        <widget_indicator/>
+    </pa_widget_indicators>
+</record_update>

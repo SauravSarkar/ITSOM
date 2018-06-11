@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-06-11 00:05:27">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-06-03 12:52:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78653a144faad700aa252ed18110c733</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA Ushur Inc</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sys_portal_page_78653a144faad700aa252ed18110c733</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-03 12:54:00</sys_updated_on>
+        <title>PA Ushur Inc</title>
+        <user/>
+        <view>pa_new_tab_5_2</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Ushur Inc">78653a144faad700aa252ed18110c733</page>
+                <summary>Hours Worked This Month For Ushur Inc's Customers</summary>
+                <sys_created_by>saurav.sarkar</sys_created_by>
+                <sys_created_on>2018-06-03 13:06:37</sys_created_on>
+                <sys_id>0188fa544faad700aa252ed18110c70d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>saurav.sarkar</sys_updated_by>
+                <sys_updated_on>2018-06-03 13:06:37</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab 5">30653a144faad700aa252ed18110c734</grid_canvas>
+                        <height>12</height>
+                        <portal_widget display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_widget>
+                        <posx>6</posx>
+                        <posy>0</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:37</sys_created_on>
+                        <sys_id>4d88fa544faad700aa252ed18110c70e</sys_id>
+                        <sys_mod_count>8</sys_mod_count>
+                        <sys_name>30653a144faad700aa252ed18110c734</sys_name>
+                        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_4d88fa544faad700aa252ed18110c70e</sys_update_name>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:19</sys_updated_on>
+                        <width>6</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:37</sys_created_on>
+                        <sys_id>0188fa544faad700aa252ed18110c70e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:37</sys_updated_on>
+                        <value>Hours Worked This Month For Ushur Inc's Customers</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:37</sys_created_on>
+                        <sys_id>0588fa544faad700aa252ed18110c70d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:37</sys_updated_on>
+                        <value>fa47be544faad700aa252ed18110c739</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:37</sys_created_on>
+                        <sys_id>4d88fa544faad700aa252ed18110c70d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:37</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:53</sys_created_on>
+                        <sys_id>819836944faad700aa252ed18110c7ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:53</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:53</sys_created_on>
+                        <sys_id>819836944faad700aa252ed18110c7cf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:53</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:37</sys_created_on>
+                        <sys_id>8588fa544faad700aa252ed18110c70e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:37</sys_updated_on>
+                        <value>breakdown</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:53</sys_created_on>
+                        <sys_id>859836944faad700aa252ed18110c7ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:53</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:53</sys_created_on>
+                        <sys_id>859836944faad700aa252ed18110c7cf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:53</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:37</sys_created_on>
+                        <sys_id>8988fa544faad700aa252ed18110c70d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:37</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:53</sys_created_on>
+                        <sys_id>899836944faad700aa252ed18110c7ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:53</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:53</sys_created_on>
+                        <sys_id>8d9836944faad700aa252ed18110c7cd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:53</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2018-06-03 18:36:37">0188fa544faad700aa252ed18110c70d</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:06:53</sys_created_on>
+                        <sys_id>8d9836944faad700aa252ed18110c7ce</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:06:53</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Ushur Inc">78653a144faad700aa252ed18110c733</page>
+                <summary>Hours Worked This Month</summary>
+                <sys_created_by>saurav.sarkar</sys_created_by>
+                <sys_created_on>2018-06-03 13:07:02</sys_created_on>
+                <sys_id>0f98fa944faad700aa252ed18110c797</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>saurav.sarkar</sys_updated_by>
+                <sys_updated_on>2018-06-03 13:07:02</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab 5">30653a144faad700aa252ed18110c734</grid_canvas>
+                        <height>12</height>
+                        <portal_widget display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_widget>
+                        <posx>0</posx>
+                        <posy>0</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:02</sys_created_on>
+                        <sys_id>1b98fa944faad700aa252ed18110c799</sys_id>
+                        <sys_mod_count>5</sys_mod_count>
+                        <sys_name>30653a144faad700aa252ed18110c734</sys_name>
+                        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_1b98fa944faad700aa252ed18110c799</sys_update_name>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:05</sys_updated_on>
+                        <width>6</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:02</sys_created_on>
+                        <sys_id>0398fa944faad700aa252ed18110c798</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:02</sys_updated_on>
+                        <value>893736544faad700aa252ed18110c7e1</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:02</sys_created_on>
+                        <sys_id>0f98fa944faad700aa252ed18110c798</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:02</sys_updated_on>
+                        <value>Hours Worked This Month</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:19</sys_created_on>
+                        <sys_id>13a83e944faad700aa252ed18110c714</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:19</sys_updated_on>
+                        <value>right</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:19</sys_created_on>
+                        <sys_id>13a83e944faad700aa252ed18110c715</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:19</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:19</sys_created_on>
+                        <sys_id>17a83e944faad700aa252ed18110c714</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:19</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:19</sys_created_on>
+                        <sys_id>17a83e944faad700aa252ed18110c715</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:19</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:19</sys_created_on>
+                        <sys_id>1ba83e944faad700aa252ed18110c714</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:19</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:19</sys_created_on>
+                        <sys_id>1fa83e944faad700aa252ed18110c713</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:19</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:19</sys_created_on>
+                        <sys_id>1fa83e944faad700aa252ed18110c714</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:19</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:02</sys_created_on>
+                        <sys_id>4b98fa944faad700aa252ed18110c798</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:02</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:02</sys_created_on>
+                        <sys_id>8398fa944faad700aa252ed18110c799</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:02</sys_updated_on>
+                        <value>score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-06-03 18:37:02">0f98fa944faad700aa252ed18110c797</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:07:02</sys_created_on>
+                        <sys_id>8798fa944faad700aa252ed18110c798</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:07:02</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Ushur Inc">78653a144faad700aa252ed18110c733</page>
+                <summary>Work Per Day</summary>
+                <sys_created_by>saurav.sarkar</sys_created_by>
+                <sys_created_on>2018-06-03 13:08:02</sys_created_on>
+                <sys_id>35d8fe944faad700aa252ed18110c7d0</sys_id>
+                <sys_mod_count>2</sys_mod_count>
+                <sys_updated_by>saurav.sarkar</sys_updated_by>
+                <sys_updated_on>2018-06-06 03:38:56</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab 5">30653a144faad700aa252ed18110c734</grid_canvas>
+                        <height>12</height>
+                        <portal_widget display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_widget>
+                        <posx>0</posx>
+                        <posy>12</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:02</sys_created_on>
+                        <sys_id>71d8fe944faad700aa252ed18110c7d2</sys_id>
+                        <sys_mod_count>6</sys_mod_count>
+                        <sys_name>30653a144faad700aa252ed18110c734</sys_name>
+                        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_71d8fe944faad700aa252ed18110c7d2</sys_update_name>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:28</sys_updated_on>
+                        <width>6</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:22</sys_created_on>
+                        <sys_id>22e876944faad700aa252ed18110c7a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:08:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:22</sys_created_on>
+                        <sys_id>26e876944faad700aa252ed18110c7a3</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:22</sys_created_on>
+                        <sys_id>26e876944faad700aa252ed18110c7a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:08:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:22</sys_created_on>
+                        <sys_id>2ae876944faad700aa252ed18110c7a3</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:35</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:22</sys_created_on>
+                        <sys_id>2ae876944faad700aa252ed18110c7a4</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:35</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:22</sys_created_on>
+                        <sys_id>2ee876944faad700aa252ed18110c7a3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:08:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:22</sys_created_on>
+                        <sys_id>2ee876944faad700aa252ed18110c7a4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:08:22</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:02</sys_created_on>
+                        <sys_id>35d8fe944faad700aa252ed18110c7d1</sys_id>
+                        <sys_mod_count>1</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:38:56</sys_updated_on>
+                        <value>Work Per Day</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:02</sys_created_on>
+                        <sys_id>39d8fe944faad700aa252ed18110c7d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:08:02</sys_updated_on>
+                        <value>3c67fa144faad700aa252ed18110c752</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:02</sys_created_on>
+                        <sys_id>71d8fe944faad700aa252ed18110c7d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:08:02</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:02</sys_created_on>
+                        <sys_id>b9d8fe944faad700aa252ed18110c7d1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:08:02</sys_updated_on>
+                        <value>breakdown</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-06-03 18:38:02">35d8fe944faad700aa252ed18110c7d0</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-03 13:08:02</sys_created_on>
+                        <sys_id>bdd8fe944faad700aa252ed18110c7d0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-03 13:08:02</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Ushur Inc">78653a144faad700aa252ed18110c733</page>
+                <summary>Work Per Week</summary>
+                <sys_created_by>saurav.sarkar</sys_created_by>
+                <sys_created_on>2018-06-06 03:45:58</sys_created_on>
+                <sys_id>a9f494954faa5b00aa252ed18110c746</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>saurav.sarkar</sys_updated_by>
+                <sys_updated_on>2018-06-06 03:45:58</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab 5">30653a144faad700aa252ed18110c734</grid_canvas>
+                        <height>12</height>
+                        <portal_widget display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_widget>
+                        <posx>6</posx>
+                        <posy>12</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:45:58</sys_created_on>
+                        <sys_id>25f49c954faa5b00aa252ed18110c7ee</sys_id>
+                        <sys_mod_count>2</sys_mod_count>
+                        <sys_name>30653a144faad700aa252ed18110c734</sys_name>
+                        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_25f49c954faa5b00aa252ed18110c7ee</sys_update_name>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:19</sys_updated_on>
+                        <width>6</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:45:58</sys_created_on>
+                        <sys_id>29f49c954faa5b00aa252ed18110c7ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:45:58</sys_updated_on>
+                        <value>Work Per Week</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:46:39</sys_created_on>
+                        <sys_id>3315d8954faa5b00aa252ed18110c7f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:39</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:46:39</sys_created_on>
+                        <sys_id>3715d8954faa5b00aa252ed18110c7f6</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:39</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:45:58</sys_created_on>
+                        <sys_id>65f49c954faa5b00aa252ed18110c7ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:45:58</sys_updated_on>
+                        <value>pa_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:45:58</sys_created_on>
+                        <sys_id>a1f49c954faa5b00aa252ed18110c7ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:45:58</sys_updated_on>
+                        <value>com.snc.pa.ui.RenderPerformanceAnalytics</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:45:58</sys_created_on>
+                        <sys_id>adf494954faa5b00aa252ed18110c746</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:45:58</sys_updated_on>
+                        <value>b1045c554faa5b00aa252ed18110c773</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:45:58</sys_created_on>
+                        <sys_id>adf49c954faa5b00aa252ed18110c7ed</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:45:58</sys_updated_on>
+                        <value>breakdown</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:46:39</sys_created_on>
+                        <sys_id>b31510d54faa5b00aa252ed18110c724</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:39</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:46:40</sys_created_on>
+                        <sys_id>b31510d54faa5b00aa252ed18110c725</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:40</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:46:39</sys_created_on>
+                        <sys_id>b71510d54faa5b00aa252ed18110c724</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:39</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:46:39</sys_created_on>
+                        <sys_id>bb1510d54faa5b00aa252ed18110c724</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:39</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 2018-06-06 09:15:58">a9f494954faa5b00aa252ed18110c746</portal_section>
+                        <sys_created_by>saurav.sarkar</sys_created_by>
+                        <sys_created_on>2018-06-06 03:46:39</sys_created_on>
+                        <sys_id>bf1510d54faa5b00aa252ed18110c724</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>saurav.sarkar</sys_updated_by>
+                        <sys_updated_on>2018-06-06 03:46:39</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

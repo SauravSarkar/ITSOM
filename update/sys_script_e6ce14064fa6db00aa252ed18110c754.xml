@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_224218_itsom_to_do_list</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_224218_itsom_to_do_list">activeCHANGESTOfalse^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="CHANGESTO" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>U:Calculate time to completion</name>
+        <order>2000</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var completionTimeMilliSec = 0;
+	
+	//Collect the metrics
+	var metrics = new GlideRecord('metric_instance');
+	metrics.addQuery('definition=e26d10c24fa6db00aa252ed18110c7b5^value=In Progress^calculation_complete=true^id=' + current.sys_id); //The metric definition used here is 'ToDoList State Duration'
+	metrics.query();
+	while(metrics.next()){
+		completionTimeMilliSec = completionTimeMilliSec + (new GlideDateTime(metrics.duration)).getNumericValue();
+	}
+	
+	if(metrics.getRowCount() > 0){
+		current.actual_hours = (new GlideDuration(completionTimeMilliSec));
+		current.update();
+	}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-06-08 12:25:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e6ce14064fa6db00aa252ed18110c754</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>U:Calculate time to completion</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sys_script_e6ce14064fa6db00aa252ed18110c754</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-10 16:01:42</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=e6ce14064fa6db00aa252ed18110c754"/>
+</record_update>

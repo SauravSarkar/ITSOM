@@ -10,14 +10,14 @@
         <hint/>
         <homepage/>
         <image/>
-        <link_type>LIST</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
         <mobile_title>My Projects</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>dmn_requirement</name>
-        <order>400</order>
+        <order>650</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>dmn_requirement_list.do?sysparm_query=ORDERBYdue_date%5EGROUPBYx_224218_itsom_phase&amp;sysparm_first_row=1&amp;sysparm_view=itsom</query>
         <report/>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -26,15 +26,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>11b169244f0ed300aa252ed18110c739</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Requirements</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
         <sys_update_name>sys_app_module_11b169244f0ed300aa252ed18110c739</sys_update_name>
-        <sys_updated_by>zaheer.hattiwale</sys_updated_by>
-        <sys_updated_on>2018-05-10 05:43:45</sys_updated_on>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-07 15:28:24</sys_updated_on>
         <timeline_page/>
         <title>Requirements</title>
         <uncancelable>false</uncancelable>

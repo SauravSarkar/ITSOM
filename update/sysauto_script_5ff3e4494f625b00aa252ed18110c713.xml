@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Populate 'Task Details for Provisional Invoice'</name>
+        <run_as display_value="Saurav Sarkar">60a465684f0ed300aa252ed18110c7cc</run_as>
+        <run_as_tz>IST</run_as_tz>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-06-05 10:13:08</run_start>
+        <run_time>1970-01-02 07:59:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[dailyDataCollection();
+//historicDataCollection(30);
+
+function dailyDataCollection(){
+	var todayDate = gs.daysAgo(0).split(" ");
+	deleteTaskDetail(todayDate[0]);
+	createTaskDetail(todayDate[0],gs.daysAgoStart(0),gs.daysAgoEnd(0));
+}
+function historicDataCollection(days){
+	for(var index=1; index<=days;index++){
+		var date = gs.daysAgo(index).split(" ");
+		deleteTaskDetail(date[0]);
+		createTaskDetail(date[0],gs.daysAgoStart(index),gs.daysAgoEnd(index));
+	}
+}
+function deleteTaskDetail(date){
+	var taskDetail = new GlideRecord('x_224218_itsom_provisional_invoice_task_details');
+	taskDetail.addQuery('date=' + date);
+	taskDetail.deleteMultiple();
+}
+
+function createTaskDetail(date,startDateTime,endDateTime){
+	var company = '';
+	var previousCompany = '';
+	var taskDetail;
+	var index=1;
+	
+	var tasks = new GlideRecord('x_224218_itsom_to_do_list');
+	tasks.addQuery('work_start>'+ startDateTime + '^work_start<'+ endDateTime);
+	tasks.orderBy('project.company');
+	tasks.query();
+	while(tasks.next()){
+		if(tasks.project.toString()){
+			if(previousCompany != tasks.project.company.toString()){
+				taskDetail = new GlideRecord('x_224218_itsom_provisional_invoice_task_details');
+				taskDetail.initialize();
+				taskDetail.customer = tasks.project.company.toString();
+				taskDetail.customer_group = tasks.project.company.x_224218_itsom_customer_group.toString();
+				taskDetail.date = date;
+				taskDetail.insert();
+				index=1;
+			}
+			taskDetail.tasks = taskDetail.tasks + index + ". " + tasks.short_description + "\n";
+			taskDetail.time_spent = taskDetail.time_spent + (getMilliSeconds(tasks.actual_hours)/(1000*60*60));
+			taskDetail.update();
+			
+			previousCompany = tasks.project.company.toString();
+			index++;
+		}
+	}
+}
+function getMilliSeconds(date){
+	return (new GlideDateTime(date)).getNumericValue();
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-06-05 10:14:13</sys_created_on>
+        <sys_id>5ff3e4494f625b00aa252ed18110c713</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Populate 'Task Details for Provisional Invoice'</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sysauto_script_5ff3e4494f625b00aa252ed18110c713</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-05 12:14:07</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

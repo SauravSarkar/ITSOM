@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>All tasks due today are high priority</name>
+        <run_as display_value="Saurav Sarkar">60a465684f0ed300aa252ed18110c7cc</run_as>
+        <run_as_tz>IST</run_as_tz>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-06-08 01:06:18</run_start>
+        <run_time>1970-01-01 08:00:01</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var tasks = new GlideRecord('x_224218_itsom_to_do_list');
+tasks.addQuery('active=true');
+tasks.query();
+while(tasks.next()){
+	if((new GlideDateTime(tasks.requirement.due_date)).onOrBefore((new GlideDateTime(gs.daysAgoEnd(0))))){
+		var taskCards = new GlideRecord('vtb_card');
+		taskCards.addQuery('task='+tasks.sys_id);
+		taskCards.query();
+		while(taskCards.next()){
+			taskCards.label_2 = true; //Label 2 sets the card to high priority
+			taskCards.update();
+		}
+		
+		//Create new if no record found
+		if(taskCards.getRowCount() == 0){
+			var newCard = new GlideRecord('vtb_card');
+			newCard.initialize();
+			//Lane and order are autofilled in the card when the task board is opened
+			newCard.board = '72f75a754f62db00aa252ed18110c7d1';
+			newCard.task = tasks.sys_id;
+			newCard.label_2 = true; //Label 2 sets the card to high priority
+			newCard.insert();
+		}
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-06-08 01:07:09</sys_created_on>
+        <sys_id>5693ceb94f22db00aa252ed18110c77b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>All tasks due today are high priority</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sysauto_script_5693ceb94f22db00aa252ed18110c77b</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-06-08 10:37:16</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
