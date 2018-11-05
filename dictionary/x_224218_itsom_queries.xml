@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Queries" max_length="40" name="x_224218_itsom_queries" type="collection">
+        <element label="Answer" max_length="5000" name="answer" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element display="true" label="Question" max_length="1000" name="question" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Raised by" max_length="32" name="raised_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requirement" max_length="32" name="requirement" reference="dmn_requirement" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Specification" max_length="32" name="specification" reference="x_224218_itsom_specifications" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="pending" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pending" sequence="10" value="pending"/>
+                <element inactive_on_update="false" label="Answered" sequence="20" value="answered"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Work Request" max_length="32" name="work_request" reference="x_224218_itsom_to_do_list" type="reference"/>
+        <index name="index">
+            <element name="specification"/>
+        </index>
+        <index name="index2">
+            <element name="raised_by"/>
+        </index>
+        <index name="index3">
+            <element name="requirement"/>
+        </index>
+        <index name="index4">
+            <element name="work_request"/>
+        </index>
+        <index name="index5">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_report_chart_color">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_chart_color">
     <sys_report_chart_color action="INSERT_OR_UPDATE">
         <color/>
         <color_name display_value="UI14 Yellow">ce56c9b3d7332100fa6c0c12ce610334</color_name>

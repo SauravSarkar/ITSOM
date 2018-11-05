@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="af7104da4f6edb00aa252ed18110c7e6" sys_domain="global" table="core_company" version="3" view="itsom">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>name</element>

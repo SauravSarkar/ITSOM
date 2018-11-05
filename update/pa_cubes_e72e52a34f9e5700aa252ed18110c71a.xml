@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_cubes">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
     <pa_cubes action="INSERT_OR_UPDATE">
         <benchmarking>false</benchmarking>
-        <conditions table="sys_user">department.company=d3f9daaf4f5e5700aa252ed18110c735^active=true<item display_table="core_company" display_value="QuoDroid" endquery="false" field="department.company" goto="false" newquery="false" operator="=" or="false" value="d3f9daaf4f5e5700aa252ed18110c735"/>
+        <conditions table="sys_user">department.company=d3f9daaf4f5e5700aa252ed18110c735^active=true<item endquery="false" field="department.company" goto="false" newquery="false" operator="=" or="false" value="d3f9daaf4f5e5700aa252ed18110c735"/>
             <item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
         </conditions>
         <description/>

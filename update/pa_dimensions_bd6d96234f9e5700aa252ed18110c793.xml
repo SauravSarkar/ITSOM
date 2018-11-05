@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_dimensions">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
     <pa_dimensions action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="cmn_department">company=d3f9daaf4f5e5700aa252ed18110c735<item display_table="core_company" display_value="QuoDroid" endquery="false" field="company" goto="false" newquery="false" operator="=" or="false" value="d3f9daaf4f5e5700aa252ed18110c735"/>
+        <conditions table="cmn_department">company=d3f9daaf4f5e5700aa252ed18110c735<item endquery="false" field="company" goto="false" newquery="false" operator="=" or="false" value="d3f9daaf4f5e5700aa252ed18110c735"/>
         </conditions>
         <description/>
         <empty_value>Unknown</empty_value>

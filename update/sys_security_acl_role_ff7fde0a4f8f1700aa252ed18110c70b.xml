@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>sargunjot.singh</sys_created_by>
+        <sys_created_on>2018-07-03 18:18:04</sys_created_on>
+        <sys_id>ff7fde0a4f8f1700aa252ed18110c70b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_224218_itsom_simple_test_cases.x_224218_itsom.simple_test_cases_user</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_security_acl display_value="x_224218_itsom_simple_test_cases">b77fde0a4f8f1700aa252ed18110c709</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ff7fde0a4f8f1700aa252ed18110c70b</sys_update_name>
+        <sys_updated_by>sargunjot.singh</sys_updated_by>
+        <sys_updated_on>2018-07-03 18:18:04</sys_updated_on>
+        <sys_user_role display_value="x_224218_itsom.simple_test_cases_user" name="x_224218_itsom.simple_test_cases_user">4ccf618e4f0f1700aa252ed18110c752</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

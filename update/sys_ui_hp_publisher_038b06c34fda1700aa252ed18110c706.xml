@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_ui_hp_publisher">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_hp_publisher">
     <sys_ui_hp_publisher action="INSERT_OR_UPDATE">
+        <allow_database_view_filter>false</allow_database_view_filter>
         <allow_extended_table>true</allow_extended_table>
         <boolean_field/>
         <boolean_table/>
@@ -13,8 +13,7 @@
         <exclusion_choice_list/>
         <look_up_name>ITSOM - Customer Group</look_up_name>
         <name>Customer Group</name>
-        <reference_conditions table="core_company">active=true^customer=true^parentISEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="customer" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <reference_conditions table="core_company">active=true^customer=true^parentISEMPTY^EQ<item endquery="false" field="customer" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="parent" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_conditions>

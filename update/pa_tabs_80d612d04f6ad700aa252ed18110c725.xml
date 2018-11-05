@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_tabs">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="PA New Tab 4">40d612d04f6ad700aa252ed18110c723</canvas_page>
         <name>Capacity</name>
-        <page display_value="PA Capacity">80d612d04f6ad700aa252ed18110c722</page>
+        <page/>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>saurav.sarkar</sys_created_by>
         <sys_created_on>2018-06-03 10:39:22</sys_created_on>

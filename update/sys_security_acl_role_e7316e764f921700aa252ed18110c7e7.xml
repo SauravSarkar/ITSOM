@@ -1,20 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_security_acl_role">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
     <sys_security_acl_role action="INSERT_OR_UPDATE">
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>saurav.sarkar</sys_created_by>
         <sys_created_on>2018-05-29 19:34:03</sys_created_on>
         <sys_id>e7316e764f921700aa252ed18110c7e7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_224218_itsom_to_do_list.admin</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_224218_itsom_to_do_list.x_224218_itsom.user</sys_name>
         <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
         <sys_security_acl display_value="x_224218_itsom_to_do_list">af316e764f921700aa252ed18110c7e3</sys_security_acl>
         <sys_update_name>sys_security_acl_role_e7316e764f921700aa252ed18110c7e7</sys_update_name>
         <sys_updated_by>saurav.sarkar</sys_updated_by>
-        <sys_updated_on>2018-05-29 19:34:03</sys_updated_on>
-        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <sys_updated_on>2018-07-01 08:55:22</sys_updated_on>
+        <sys_user_role display_value="x_224218_itsom.user" name="x_224218_itsom.user">eaea4a594f43d300aa252ed18110c77a</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

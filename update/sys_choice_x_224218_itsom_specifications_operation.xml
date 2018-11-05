@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="operation" table="x_224218_itsom_specifications" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Create</label>
+            <language>en</language>
+            <name>x_224218_itsom_specifications</name>
+            <sequence>10</sequence>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-07-01 09:07:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca2e8ed94f43d300aa252ed18110c7b6</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-07-01 09:07:51</sys_updated_on>
+            <value>create</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Update</label>
+            <language>en</language>
+            <name>x_224218_itsom_specifications</name>
+            <sequence>20</sequence>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-07-01 09:07:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f03e4e994f43d300aa252ed18110c74f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-07-01 09:07:55</sys_updated_on>
+            <value>update</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>operation</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Delete</label>
+            <language>en</language>
+            <name>x_224218_itsom_specifications</name>
+            <sequence>30</sequence>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-07-01 09:07:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>073e8ed94f43d300aa252ed18110c7b7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-07-01 09:07:59</sys_updated_on>
+            <value>delete</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>operation</element>
+            <name>x_224218_itsom_specifications</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-07-01 09:07:02</sys_created_on>
+            <sys_id>1634674ddb9523002662da75ca961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>operation</sys_name>
+            <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+            <sys_update_name>sys_choice_x_224218_itsom_specifications_operation</sys_update_name>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-07-01 09:07:02</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

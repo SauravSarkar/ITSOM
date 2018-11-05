@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_224218_itsom.simple_test_cases_user" name="x_224218_itsom.simple_test_cases_user">4ccf618e4f0f1700aa252ed18110c752</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>sargunjot.singh</sys_created_by>
+        <sys_created_on>2018-07-03 14:49:28</sys_created_on>
+        <sys_id>40cf618e4f0f1700aa252ed18110c755</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4ccf618e4f0f1700aa252ed18110c752</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sys_embedded_help_role_40cf618e4f0f1700aa252ed18110c755</sys_update_name>
+        <sys_updated_by>sargunjot.singh</sys_updated_by>
+        <sys_updated_on>2018-07-03 14:49:28</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_dimensions">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
     <pa_dimensions action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="core_company">active=true^customer=true^parentISEMPTY<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="customer" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <conditions table="core_company">active=true^customer=true^parentISEMPTY<item endquery="false" field="customer" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="parent" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
         </conditions>
         <description/>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2018-06-11 00:05:31">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2018-11-05 15:45:05">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -40,7 +39,7 @@
                     <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
                         <grid_canvas display_value="PA New Tab 5">a16fd6d44f6ad700aa252ed18110c7bb</grid_canvas>
                         <height>13</height>
-                        <portal_widget display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_widget>
+                        <portal_widget display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_widget>
                         <posx>0</posx>
                         <posy>0</posy>
                         <sys_class_name>sys_grid_canvas_pane</sys_class_name>
@@ -61,7 +60,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:17:54</sys_created_on>
                         <sys_id>28afda184f6ad700aa252ed18110c750</sys_id>
@@ -72,7 +71,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:17:54</sys_created_on>
                         <sys_id>2cafda184f6ad700aa252ed18110c74c</sys_id>
@@ -83,7 +82,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:17:54</sys_created_on>
                         <sys_id>2cafda184f6ad700aa252ed18110c74f</sys_id>
@@ -94,7 +93,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_align</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:20:41</sys_created_on>
                         <sys_id>514022584f6ad700aa252ed18110c74f</sys_id>
@@ -105,7 +104,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>filter_indicator</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:20:41</sys_created_on>
                         <sys_id>514022584f6ad700aa252ed18110c750</sys_id>
@@ -116,7 +115,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>show_border</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:20:41</sys_created_on>
                         <sys_id>554022584f6ad700aa252ed18110c74f</sys_id>
@@ -127,7 +126,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>real_time</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:20:41</sys_created_on>
                         <sys_id>554022584f6ad700aa252ed18110c750</sys_id>
@@ -138,7 +137,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>publisher_widget</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:20:41</sys_created_on>
                         <sys_id>594022584f6ad700aa252ed18110c74f</sys_id>
@@ -149,7 +148,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>show_title</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:20:41</sys_created_on>
                         <sys_id>5d4022584f6ad700aa252ed18110c74e</sys_id>
@@ -160,7 +159,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>subscriber_widget</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:20:41</sys_created_on>
                         <sys_id>5d4022584f6ad700aa252ed18110c74f</sys_id>
@@ -171,7 +170,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:17:54</sys_created_on>
                         <sys_id>a0afda184f6ad700aa252ed18110c750</sys_id>
@@ -182,7 +181,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 2018-06-03 16:47:54">28afda184f6ad700aa252ed18110c74c</portal_section>
+                        <portal_section display_value="Created 2018-06-03 04:17:54">28afda184f6ad700aa252ed18110c74c</portal_section>
                         <sys_created_by>saurav.sarkar</sys_created_by>
                         <sys_created_on>2018-06-03 11:17:54</sys_created_on>
                         <sys_id>ecafda184f6ad700aa252ed18110c74f</sys_id>

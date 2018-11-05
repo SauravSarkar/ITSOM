@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_indicators">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicators">
     <pa_indicators action="INSERT_OR_UPDATE">
         <aggregate>1</aggregate>
         <benchmarking>false</benchmarking>
@@ -18,14 +17,16 @@
         <forecast_base_periods>4</forecast_base_periods>
         <forecast_base_start>00000000</forecast_base_start>
         <forecast_base_type>2</forecast_base_type>
+        <forecast_lower_limit/>
         <forecast_method>1</forecast_method>
         <forecast_periods>2</forecast_periods>
+        <forecast_upper_limit/>
         <formula>[[bcf112104f6ad700aa252ed18110c769]]/[[cf2d09d44fa6d700aa252ed18110c739]]</formula>
         <formula_aggregate_whole>false</formula_aggregate_whole>
         <frequency>10</frequency>
         <groups/>
         <has_managed_indicators>false</has_managed_indicators>
-        <id>288</id>
+        <id>106</id>
         <key>true</key>
         <label/>
         <linked_indicator/>

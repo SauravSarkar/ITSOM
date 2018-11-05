@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="x_224218_itsom_customer_group" label="Customer Group" language="en" table="core_company">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>x_224218_itsom_customer_group</element>

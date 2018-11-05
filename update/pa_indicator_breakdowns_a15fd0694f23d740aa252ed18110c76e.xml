@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="INSERT_OR_UPDATE">
+        <breakdown display_value="ServiceNow Implementation Team Members">20d6f7944fe31740aa252ed18110c723</breakdown>
+        <display>true</display>
+        <indicator display_value="Total WIP time today">8694b7944fe31740aa252ed18110c7d7</indicator>
+        <order>100</order>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-07-26 16:12:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a15fd0694f23d740aa252ed18110c76e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ServiceNow Implementation Team Members.Total WIP time today</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_a15fd0694f23d740aa252ed18110c76e</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-07-26 16:12:34</sys_updated_on>
+    </pa_indicator_breakdowns>
+</record_update>

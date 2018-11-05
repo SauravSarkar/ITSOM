@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_224218_itsom_to_do_list" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -102,7 +101,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>saurav.sarkar</sys_created_by>
             <sys_created_on>2018-05-29 19:46:29</sys_created_on>
-            <sys_id>b914ae764f921700aa252ed18110c7fb</sys_id>
+            <sys_id>d634674ddb9523002662da75ca961915</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>state</sys_name>
             <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>

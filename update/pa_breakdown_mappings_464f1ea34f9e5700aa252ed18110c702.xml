@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_breakdown_mappings">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdown_mappings">
     <pa_breakdown_mappings action="INSERT_OR_UPDATE">
         <breakdown display_value="QuoDroid Departments">da7c1a234f9e5700aa252ed18110c711</breakdown>
         <facts_table>sys_user</facts_table>

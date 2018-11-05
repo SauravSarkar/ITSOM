@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Specifications" language="en" table="x_224218_itsom_specifications">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Specifications</label>
+            <language>en</language>
+            <name>x_224218_itsom_specifications</name>
+            <plural>Specifications</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-07-01 08:56:21</sys_created_on>
+            <sys_id>0ccb06994f43d300aa252ed18110c756</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Specifications</sys_name>
+            <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+            <sys_update_name>sys_documentation_x_224218_itsom_specifications__en</sys_update_name>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-07-01 08:56:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

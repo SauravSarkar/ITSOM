@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_breakdown_relations">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdown_relations">
     <pa_breakdown_relations action="INSERT_OR_UPDATE">
         <breakdown display_value="QuoDroid Members">aab222674f9e5700aa252ed18110c77e</breakdown>
         <breakdown_field>sys_id</breakdown_field>
         <common_field/>
         <conditions table="sys_user">active=true^department.company=d3f9daaf4f5e5700aa252ed18110c735^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item display_table="core_company" display_value="QuoDroid" endquery="false" field="department.company" goto="false" newquery="false" operator="=" or="false" value="d3f9daaf4f5e5700aa252ed18110c735"/>
+            <item endquery="false" field="department.company" goto="false" newquery="false" operator="=" or="false" value="d3f9daaf4f5e5700aa252ed18110c735"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <display>true</display>

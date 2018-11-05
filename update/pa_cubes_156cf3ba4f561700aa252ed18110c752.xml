@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_cubes">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
     <pa_cubes action="INSERT_OR_UPDATE">
         <benchmarking>false</benchmarking>
         <conditions table="x_224218_itsom_to_do_list">actual_hoursISNOTEMPTY^work_startONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()<item endquery="false" field="actual_hours" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>

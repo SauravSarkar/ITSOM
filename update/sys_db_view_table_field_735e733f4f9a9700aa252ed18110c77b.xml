@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_db_view_table_field">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field">
     <sys_db_view_table_field action="INSERT_OR_UPDATE">
         <field>start_at</field>
         <sys_class_name>sys_db_view_table_field</sys_class_name>

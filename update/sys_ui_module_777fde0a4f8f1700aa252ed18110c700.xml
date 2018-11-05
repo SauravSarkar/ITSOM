@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Simple Test Cases">94cf618e4f0f1700aa252ed18110c776</application>
+        <filter/>
+        <name>Simple Test Cases</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_224218_itsom.simple_test_cases_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>sargunjot.singh</sys_created_by>
+        <sys_created_on>2018-07-03 18:18:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>777fde0a4f8f1700aa252ed18110c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Simple Test Cases</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sys_ui_module_777fde0a4f8f1700aa252ed18110c700</sys_update_name>
+        <sys_updated_by>sargunjot.singh</sys_updated_by>
+        <sys_updated_on>2018-07-03 18:18:04</sys_updated_on>
+        <table>x_224218_itsom_simple_test_cases</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

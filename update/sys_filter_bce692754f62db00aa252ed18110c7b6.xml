@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_filter">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
         <filter table="x_224218_itsom_to_do_list">active=true^ORsys_created_on&gt;=javascript:gs.beginningOfLastWeek()^EQ^ORDERBYrequirement.due_date<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;=" or="true" value="javascript:gs.beginningOfLastWeek()"/>
@@ -28,4 +27,5 @@
         <title>To Do List Default</title>
         <user/>
     </sys_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=bce692754f62db00aa252ed18110c7b6"/>
 </record_update>

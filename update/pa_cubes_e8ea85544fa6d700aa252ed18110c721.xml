@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_cubes">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_cubes">
     <pa_cubes action="INSERT_OR_UPDATE">
         <benchmarking>false</benchmarking>
         <conditions table="x_224218_itsom_estimated_work_capacity">start_atONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^memberISNOTEMPTY<item endquery="false" field="start_at" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>

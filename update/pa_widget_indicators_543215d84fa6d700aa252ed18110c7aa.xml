@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_widget_indicators">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_widget_indicators">
     <pa_widget_indicators action="INSERT_OR_UPDATE">
         <aggregate/>
         <breakdown display_value="To Do List States">7a8f09584fa6d700aa252ed18110c7f7</breakdown>

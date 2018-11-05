@@ -1,9 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_dimensions">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
     <pa_dimensions action="INSERT_OR_UPDATE">
         <active>true</active>
         <conditions table="pm_project">active=true^company.active=true<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="false" field="company.active" goto="false" newquery="false" operator="=" or="false" value="true"/>
         </conditions>
         <description/>
         <empty_value/>

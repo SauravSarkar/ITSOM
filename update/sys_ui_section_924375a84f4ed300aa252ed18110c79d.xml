@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="924375a84f4ed300aa252ed18110c79d" sys_domain="global" table="vtb_task" version="3" view="itsom">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>

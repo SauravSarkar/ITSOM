@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_target_values">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_target_values">
     <pa_target_values action="INSERT_OR_UPDATE">
         <sys_class_name>pa_target_values</sys_class_name>
         <sys_created_by>saurav.sarkar</sys_created_by>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_dimensions">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
     <pa_dimensions action="INSERT_OR_UPDATE">
         <active>true</active>
         <conditions table="sys_choice">name=x_224218_itsom_to_do_list^element=state^inactive=false^language=en<item endquery="false" field="name" goto="false" newquery="false" operator="=" or="false" value="x_224218_itsom_to_do_list"/>

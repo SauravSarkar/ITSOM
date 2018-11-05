@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="calendar_elements=tasks" label="Task Details for Provisional Invoice" max_length="40" name="x_224218_itsom_provisional_invoice_task_details" type="collection">
         <element label="Comments" max_length="5000" name="comments" type="string"/>
-        <element label="Customer" max_length="32" name="customer" reference="core_company" reference_qual="customer=true^EQ" reference_qual_condition="customer=true^EQ" type="reference"/>
-        <element label="Customer Group" max_length="32" name="customer_group" reference="core_company" reference_qual="customer=true^parentISEMPTY^EQ" reference_qual_condition="customer=true^parentISEMPTY^EQ" type="reference"/>
-        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer" max_length="32" name="customer" reference="core_company" reference_qual="customer=true^EQ" reference_qual_condition="customer=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer Group" max_length="32" name="customer_group" reference="core_company" reference_qual="customer=true^parentISEMPTY^EQ" reference_qual_condition="customer=true^parentISEMPTY^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="List of Tasks completed" max_length="5000" name="tasks" type="string"/>
-        <element label="Time spent (Hours)" max_length="40" name="time_spent" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Time spent (Hours)" max_length="40" name="time_spent" type="decimal"/>
         <index name="index">
             <element name="customer_group"/>
         </index>

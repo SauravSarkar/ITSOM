@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Problem Tracker Escalation Notification</name>
+        <run_as display_value="Saurav Sarkar">40e25789db1123002662da75ca9619a1</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-07-23 12:33:11</run_start>
+        <run_time>1969-12-31 18:30:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[//Create the query string
+var escalateAfterdays = [10,15,25,30,45,60,90,100,120];
+var query = 'stateNOT IN11,13,15^'; //State not in Verification,Ops Assessment, or Closed
+for(var index = 0; index < escalateAfterdays.length; index++){
+	query = query + "sys_created_onRELATIVEEE@dayofweek@ago@" + escalateAfterdays[index].toString() + "^OR";
+}
+query = query.slice(0,-3); //Remove the ^OR from end of string
+
+//Query the table
+var problemTracker = new GlideRecord();
+problemTracker.addQuery(query);
+problemTracker.query();
+while(problemTracker.next()){
+	gs.eventQueue('problem_tracker.escalation', problemTracker, problemTracker.assignment_group); //Trigger the escalation mail
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-07-23 12:56:14</sys_created_on>
+        <sys_id>b65094204f671740aa252ed18110c783</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Problem Tracker Escalation Notification</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sysauto_script_b65094204f671740aa252ed18110c783</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-07-23 12:56:14</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

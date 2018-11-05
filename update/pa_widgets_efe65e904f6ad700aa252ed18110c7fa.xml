@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_widgets">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_widgets">
     <pa_widgets action="INSERT_OR_UPDATE">
         <aggregate/>
         <breakdown/>
@@ -44,6 +43,7 @@
         <include_comments>false</include_comments>
         <include_confidence>false</include_confidence>
         <include_forecast>false</include_forecast>
+        <include_prediction_interval>false</include_prediction_interval>
         <include_target>true</include_target>
         <include_thresholds>false</include_thresholds>
         <include_trend>false</include_trend>

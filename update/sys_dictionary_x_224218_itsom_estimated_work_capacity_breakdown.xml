@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="breakdown" table="x_224218_itsom_estimated_work_capacity">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -54,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>saurav.sarkar</sys_created_by>
         <sys_created_on>2018-06-02 05:45:41</sys_created_on>
-        <sys_id>4f89c8804fea9700aa252ed18110c76e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>a543a7c5db9523002662da75ca96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Breakdown</sys_name>
         <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
         <sys_update_name>sys_dictionary_x_224218_itsom_estimated_work_capacity_breakdown</sys_update_name>
         <sys_updated_by>saurav.sarkar</sys_updated_by>
-        <sys_updated_on>2018-06-02 06:26:36</sys_updated_on>
+        <sys_updated_on>2018-10-20 17:05:21</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

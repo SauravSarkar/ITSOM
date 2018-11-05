@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>9d45061edb5d23002662da75ca961910</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="vtb_board">
+    <vtb_board action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <assignment_group/>
+        <background_color>vtb-board-color-5</background_color>
+        <card_limit>1000</card_limit>
+        <comments/>
+        <field>state</field>
+        <filter table="x_224218_itsom_to_do_list">active=true^ORsys_created_on&gt;=javascript:gs.beginningOfLastWeek()^ORDERBYrequirement.due_date<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;=" or="true" value="javascript:gs.beginningOfLastWeek()"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="requirement.due_date"/>
+        </filter>
+        <label_1>Defect</label_1>
+        <label_1_active>true</label_1_active>
+        <label_2>High Priority</label_2>
+        <label_2_active>true</label_2_active>
+        <label_3>Feature</label_3>
+        <label_3_active>false</label_3_active>
+        <label_4>Idea</label_4>
+        <label_4_active>false</label_4_active>
+        <label_5>Request</label_5>
+        <label_5_active>false</label_5_active>
+        <label_6>Story</label_6>
+        <label_6_active>false</label_6_active>
+        <label_7>Low Priority</label_7>
+        <label_7_active>false</label_7_active>
+        <last_synchronized>2018-11-02 14:06:13</last_synchronized>
+        <list_view_name/>
+        <name>To Do Lists by State</name>
+        <owner display_value="Saurav Sarkar">40e25789db1123002662da75ca9619a1</owner>
+        <readable_filter>Active = true .or. Created &gt;= 2018-10-22 00:00:00</readable_filter>
+        <show_board_picker>true</show_board_picker>
+        <show_labels>true</show_labels>
+        <show_list_toggle>true</show_list_toggle>
+        <stream_limit>50</stream_limit>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-10-24 07:23:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9d45061edb5d23002662da75ca961910</sys_id>
+        <sys_mod_count>872</sys_mod_count>
+        <sys_updated_by>zaheer.hattiwale</sys_updated_by>
+        <sys_updated_on>2018-11-02 14:24:28</sys_updated_on>
+        <table>x_224218_itsom_to_do_list</table>
+    </vtb_board>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-11-02 14:27:35</sys_created_on>
+        <sys_id>89bc7d5ddb6d63002662da75ca9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>To Do Lists by State</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sys_metadata_link_89bc7d5ddb6d63002662da75ca9619a9</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-11-02 14:27:35</sys_updated_on>
+        <tablename>vtb_board</tablename>
+    </sys_metadata_link>
+</record_update>

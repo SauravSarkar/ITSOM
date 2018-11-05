@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_224218_itsom.WIPLib</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>WIPLib</name>
+        <script><![CDATA[var WIPLib = Class.create();
+WIPLib.prototype = {
+	initialize: function() {
+		this.schedule = new GlideSchedule();
+		this.schedule.setTimeZone('IST');
+	},
+	getTotalWorkPerDayByMember: function(daysAgo,userSysID){
+		var dur = new GlideDuration(0);
+		
+		var data = new GlideRecord('x_224218_itsom_wip_time_per_member');
+		data.addQuery('mtr_value=In Progress^wrk_assigned_to=' + userSysID + '^mtr_end>' + gs.daysAgoStart(daysAgo)  + '^mtr_end<' + gs.daysAgoEnd(daysAgo));
+		data.query();
+		while(data.next()){
+			var metricDuration = new GlideDuration();
+			metricDuration.setValue(data.mtr_duration.toString());
+			
+			dur = dur.add(metricDuration);
+		}
+		return (new GlideDateTime(dur.getValue())).getNumericValue(); //Return the duration in Milliseconds
+	},
+	getTotalTasksPerDayByMember: function(daysAgo,userSysID){
+		var dur = new GlideDuration(0);
+		
+		var data = new GlideAggregate('x_224218_itsom_wip_time_per_member');
+		data.addQuery('wrk_assigned_to=' + userSysID + '^wrk_sys_created_on>' + gs.daysAgoStart(daysAgo) + '^wrk_sys_created_on<' + gs.daysAgoEnd(daysAgo));
+		data.addAggregate('count(distinct','wrk_sys_id');
+		data.groupBy('wrk_assigned_to');
+		data.query();
+		if(data.next()){
+			return (data.getAggregate('count(distinct','wrk_sys_id'));
+		}
+		return 0;
+	},
+	getCompletedTasksPerDayByMember: function(daysAgo,userSysID){
+		var dur = new GlideDuration(0);
+		
+		var data = new GlideAggregate('x_224218_itsom_wip_time_per_member');
+		data.addQuery('wrk_state=3^wrk_assigned_to=' + userSysID + '^wrk_sys_created_on>' + gs.daysAgoStart(daysAgo) + '^wrk_sys_created_on<' + gs.daysAgoEnd(daysAgo));
+		data.addAggregate('count(distinct','wrk_sys_id');
+		data.groupBy('wrk_assigned_to');
+		data.query();
+		if(data.next()){
+			return (data.getAggregate('count(distinct','wrk_sys_id'));
+		}
+		return 0;
+	},
+	getBacklogTasksPerDayByMember: function(daysAgo,userSysID){
+		var dur = new GlideDuration(0);
+		
+		var data = new GlideAggregate('x_224218_itsom_wip_time_per_member');
+		data.addQuery('wrk_state=1^wrk_assigned_to=' + userSysID + '^wrk_sys_created_on>' + gs.daysAgoStart(daysAgo) + '^wrk_sys_created_on<' + gs.daysAgoEnd(daysAgo));
+		data.addAggregate('count(distinct','wrk_sys_id');
+		data.groupBy('wrk_assigned_to');
+		data.query();
+		if(data.next()){
+			return (data.getAggregate('count(distinct','wrk_sys_id'));
+		}
+		return 0;
+	},
+	recalculateInternalDateTimeForIST: function(internalDateTimeForCurrentTimeZone){
+		var gdt = new GlideDateTime(internalDateTimeForCurrentTimeZone);
+		
+		//Get the offset of current time zone to IST
+		var offset = gdt.getTZOffset() - (((5*60) + 30 ) * 60 * 1000); //IST is 5 hours 30 minutes ahead of UTC
+		
+		gdt.subtract(-offset); //Recalculate UTC time
+		
+		return gdt.getValue();
+	},
+	type: 'WIPLib'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-07-27 10:12:18</sys_created_on>
+        <sys_id>026650314fabd740aa252ed18110c71d</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_name>WIPLib</sys_name>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>sys_script_include_026650314fabd740aa252ed18110c71d</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-07-27 18:23:35</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_scripts">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_scripts">
     <pa_scripts action="INSERT_OR_UPDATE">
         <arguments>estimated_hours,actual_hours</arguments>
         <description/>

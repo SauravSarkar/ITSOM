@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_filters">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_filters">
     <pa_filters action="INSERT_OR_UPDATE">
         <dimension display_value="CustomerGroup.active">5781404f4f561700aa252ed18110c724</dimension>
         <filter/>

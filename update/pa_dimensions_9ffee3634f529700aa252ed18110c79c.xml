@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_dimensions">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
     <pa_dimensions action="INSERT_OR_UPDATE">
         <active>true</active>
         <conditions table="sys_user">active=true^department.company=d3f9daaf4f5e5700aa252ed18110c735<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item display_table="core_company" display_value="QuoDroid" endquery="false" field="department.company" goto="false" newquery="false" operator="=" or="false" value="d3f9daaf4f5e5700aa252ed18110c735"/>
+            <item endquery="false" field="department.company" goto="false" newquery="false" operator="=" or="false" value="d3f9daaf4f5e5700aa252ed18110c735"/>
         </conditions>
         <description/>
         <empty_value/>

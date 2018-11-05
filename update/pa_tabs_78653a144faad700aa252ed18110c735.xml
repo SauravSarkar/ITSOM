@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="pa_tabs">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page display_value="PA New Tab 5">30653a144faad700aa252ed18110c734</canvas_page>
         <name>Ushur Inc</name>
-        <page display_value="PA Ushur Inc">78653a144faad700aa252ed18110c733</page>
+        <page/>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>saurav.sarkar</sys_created_by>
         <sys_created_on>2018-06-03 12:52:57</sys_created_on>

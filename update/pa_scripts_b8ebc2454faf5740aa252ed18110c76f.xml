@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_scripts">
+    <pa_scripts action="INSERT_OR_UPDATE">
+        <arguments>mtr_start,mtr_end</arguments>
+        <description/>
+        <name>WIP.Duration</name>
+        <script><![CDATA[function getStart(){
+	if(startBeforeToday()){
+		return (gs.daysAgoStart(0)).toString();
+	}
+	
+	return (current.mtr_start.toString());
+}
+function startBeforeToday(){
+	var startDate = new GlideDateTime(current.mtr_start.toString());
+	
+	var today = new GlideDateTime((gs.daysAgoStart(0)).toString());
+	
+	if(startDate.before(today)){
+		return true;
+	}
+	
+	return false;
+}
+function getEnd(){
+	if(current.mtr_end.toString() != ""){
+		return (current.mtr_end.toString());
+	}
+	
+	return (gs.daysAgoEnd(0)).toString();
+}
+function calculateDuration(){
+	var startDate = new GlideDateTime(getStart());
+	var endDate = new GlideDateTime(getEnd());
+	
+	var schedule = new GlideSchedule();
+	schedule.load('8eeb9e414fef5740aa252ed18110c794');
+	var duration = schedule.duration(startDate, endDate);
+	gs.info('Today is ' + (new GlideDateTime((gs.daysAgoStart(0)))).getValue());
+	return (((new GlideDateTime(duration.getValue())).getNumericValue())/(1000*60*60));
+}
+calculateDuration();]]></script>
+        <sys_class_name>pa_scripts</sys_class_name>
+        <sys_created_by>saurav.sarkar</sys_created_by>
+        <sys_created_on>2018-07-25 11:49:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8ebc2454faf5740aa252ed18110c76f</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>WIP.Duration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+        <sys_update_name>pa_scripts_b8ebc2454faf5740aa252ed18110c76f</sys_update_name>
+        <sys_updated_by>saurav.sarkar</sys_updated_by>
+        <sys_updated_on>2018-07-26 02:38:21</sys_updated_on>
+        <table>x_224218_itsom_wip_time_per_member</table>
+    </pa_scripts>
+    <sys_translated_text action="delete_multiple" query="documentkey=b8ebc2454faf5740aa252ed18110c76f"/>
+</record_update>

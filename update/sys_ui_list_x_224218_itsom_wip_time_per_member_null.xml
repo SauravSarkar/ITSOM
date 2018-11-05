@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_224218_itsom_wip_time_per_member" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wrk_number</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>8bfbb15ddb6d63002662da75ca9619fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wrk_active</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>43fbb15ddb6d63002662da75ca9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wrk_project</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>c3fbb15ddb6d63002662da75ca9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wrk_project.company.x_224218_itsom_customer_group</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>47fbb15ddb6d63002662da75ca9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wrk_state</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>c7fbb15ddb6d63002662da75ca9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wrk_short_description</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>4bfbb15ddb6d63002662da75ca9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wrk_assigned_to</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>cbfbb15ddb6d63002662da75ca9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wrk_estimated_hours</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>4ffbb15ddb6d63002662da75ca9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>wrk_work_start</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>cffbb15ddb6d63002662da75ca9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mtr_definition</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>43fbb15ddb6d63002662da75ca9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mtr_value</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>c3fbb15ddb6d63002662da75ca9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mtr_start</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>47fbb15ddb6d63002662da75ca9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mtr_end</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>c7fbb15ddb6d63002662da75ca9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mtr_duration</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>true</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>4bfbb15ddb6d63002662da75ca9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>mtr_calculation_complete</element>
+            <list_id display_value="x_224218_itsom_wip_time_per_member" element="NULL" name="x_224218_itsom_wip_time_per_member" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8ffbb15ddb6d63002662da75ca9619fc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_id>cbfbb15ddb6d63002662da75ca9619ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_224218_itsom_wip_time_per_member</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>saurav.sarkar</sys_created_by>
+            <sys_created_on>2018-11-02 14:24:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8ffbb15ddb6d63002662da75ca9619fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_224218_itsom_wip_time_per_member</sys_name>
+            <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
+            <sys_update_name>sys_ui_list_x_224218_itsom_wip_time_per_member_null</sys_update_name>
+            <sys_updated_by>saurav.sarkar</sys_updated_by>
+            <sys_updated_on>2018-11-02 14:24:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

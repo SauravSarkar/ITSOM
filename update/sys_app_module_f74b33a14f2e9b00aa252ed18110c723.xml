@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_app_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="ITSOM">e02c91244f8ad300aa252ed18110c720</application>
@@ -17,7 +16,7 @@
         <name/>
         <order>200</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>$vtb.do?sysparm_board=72f75a754f62db00aa252ed18110c7d1</query>
+        <query>$vtb.do?sysparm_board=9d45061edb5d23002662da75ca961910</query>
         <report/>
         <roles/>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -26,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f74b33a14f2e9b00aa252ed18110c723</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Task Board</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
@@ -34,7 +33,7 @@
         <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
         <sys_update_name>sys_app_module_f74b33a14f2e9b00aa252ed18110c723</sys_update_name>
         <sys_updated_by>saurav.sarkar</sys_updated_by>
-        <sys_updated_on>2018-06-08 02:40:36</sys_updated_on>
+        <sys_updated_on>2018-10-24 07:33:43</sys_updated_on>
         <timeline_page/>
         <title>Task Board</title>
         <uncancelable>false</uncancelable>

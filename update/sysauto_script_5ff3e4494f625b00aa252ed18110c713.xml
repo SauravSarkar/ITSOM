@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sysauto_script">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
     <sysauto_script action="INSERT_OR_UPDATE">
         <active>true</active>
         <condition/>
         <conditional>false</conditional>
         <name>Populate 'Task Details for Provisional Invoice'</name>
-        <run_as display_value="Saurav Sarkar">60a465684f0ed300aa252ed18110c7cc</run_as>
+        <run_as display_value="Saurav Sarkar">40e25789db1123002662da75ca9619a1</run_as>
         <run_as_tz>IST</run_as_tz>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
@@ -14,7 +13,8 @@
         <run_time>1970-01-02 07:59:00</run_time>
         <run_type>daily</run_type>
         <script><![CDATA[dailyDataCollection();
-//historicDataCollection(30);
+historicDataCollection(10);
+//historicDataCollection(40);
 
 function dailyDataCollection(){
 	var todayDate = gs.daysAgo(0).split(" ");
@@ -35,32 +35,49 @@ function deleteTaskDetail(date){
 }
 
 function createTaskDetail(date,startDateTime,endDateTime){
-	var company = '';
-	var previousCompany = '';
+	//var company = '';
+	var previousCompanyGroup = '';
+	var previousProject = '';
+	var previousTask = '';
 	var taskDetail;
 	var index=1;
 	
-	var tasks = new GlideRecord('x_224218_itsom_to_do_list');
-	tasks.addQuery('work_start>'+ startDateTime + '^work_start<'+ endDateTime);
-	tasks.orderBy('project.company');
-	tasks.query();
-	while(tasks.next()){
-		if(tasks.project.toString()){
-			if(previousCompany != tasks.project.company.toString()){
+	var metrics = new GlideRecord('x_224218_itsom_wip_time_per_member');
+	//mtr_value=In Progress^mtr_end>=javascript:gs.beginningOfLastMonth()^wrk_project.company.x_224218_itsom_customer_group=244111f5dbdd63002662da75ca96190c^mtr_end<javascript:gs.beginningOfThisMonth()
+	//mtr_value=In Progress^mtr_end>=javascript:gs.beginningOfLastMonth()^wrk_project.company.x_224218_itsom_customer_group=244111f5dbdd63002662da75ca96190c^mtr_end<javascript:gs.beginningOfThisMonth()^wrk_short_description=Meeting with Ravi 22/10/18
+	metrics.addQuery('wrk_project.company.x_224218_itsom_customer_groupISNOTEMPTY^projectISNOTEMPTY');
+	metrics.addQuery('mtr_end>'+ startDateTime + '^mtr_end<'+ endDateTime);
+	metrics.addQuery('mtr_value=In Progress');
+	metrics.orderBy('wrk_project.company.x_224218_itsom_customer_group');
+	metrics.orderBy('wrk_project');
+	metrics.query();
+	while(metrics.next()){
+		if(metrics.wrk_project.toString()){
+			if(previousCompanyGroup != metrics.wrk_project.company.x_224218_itsom_customer_group.toString()){
 				taskDetail = new GlideRecord('x_224218_itsom_provisional_invoice_task_details');
 				taskDetail.initialize();
-				taskDetail.customer = tasks.project.company.toString();
-				taskDetail.customer_group = tasks.project.company.x_224218_itsom_customer_group.toString();
+				//taskDetail.customer = metrics.project.company.toString();
+				taskDetail.customer_group = metrics.wrk_project.company.x_224218_itsom_customer_group.toString();
 				taskDetail.date = date;
 				taskDetail.insert();
+			}
+			if(previousProject != metrics.wrk_project.toString()){
+				taskDetail.metrics = taskDetail.metrics + "\n" + metrics.wrk_project.short_description.toString() + "-\n";
+				if(previousProject == ""){
+					taskDetail.metrics = metrics.wrk_project.short_description.toString() + "-\n";
+				}
 				index=1;
 			}
-			taskDetail.tasks = taskDetail.tasks + index + ". " + tasks.short_description + "\n";
-			taskDetail.time_spent = taskDetail.time_spent + (getMilliSeconds(tasks.actual_hours)/(1000*60*60));
+			if(previousTask != metrics.wrk_short_description.toString()){
+				taskDetail.tasks = taskDetail.tasks + index + ". " + metrics.wrk_short_description + "\n";
+				index++;
+			}
+			taskDetail.time_spent = taskDetail.time_spent + (getMilliSeconds(metrics.mtr_duration)/(1000*60*60));
 			taskDetail.update();
 			
-			previousCompany = tasks.project.company.toString();
-			index++;
+			previousCompanyGroup = metrics.wrk_project.company.x_224218_itsom_customer_group.toString();
+			previousProject = metrics.wrk_project.toString();
+			previousTask = metrics.wrk_short_description.toString();
 		}
 	}
 }
@@ -71,14 +88,14 @@ function getMilliSeconds(date){
         <sys_created_by>saurav.sarkar</sys_created_by>
         <sys_created_on>2018-06-05 10:14:13</sys_created_on>
         <sys_id>5ff3e4494f625b00aa252ed18110c713</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Populate 'Task Details for Provisional Invoice'</sys_name>
         <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
         <sys_update_name>sysauto_script_5ff3e4494f625b00aa252ed18110c713</sys_update_name>
         <sys_updated_by>saurav.sarkar</sys_updated_by>
-        <sys_updated_on>2018-06-05 12:14:07</sys_updated_on>
+        <sys_updated_on>2018-11-05 11:43:20</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

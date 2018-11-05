@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_app_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="ITSOM">e02c91244f8ad300aa252ed18110c720</application>
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter table="sys_user_grmember">group=9b1369284f0ed300aa252ed18110c7b6^EQ<item display_table="sys_user_group" display_value="ServiceNow Implementation Team" endquery="false" field="group" goto="false" newquery="false" operator="=" or="false" value="9b1369284f0ed300aa252ed18110c7b6"/>
+        <filter table="sys_user_grmember">group=95f846dedb5d23002662da75ca96197f^EQ<item display_table="sys_user_group" display_value="Quodroid ServiceNow Implementors" endquery="false" field="group" goto="false" newquery="false" operator="=" or="false" value="95f846dedb5d23002662da75ca96197f"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
         <hint/>
@@ -28,7 +27,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>62b3e1284f0ed300aa252ed18110c715</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Team Members</sys_name>
         <sys_overrides/>
         <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
@@ -36,7 +35,7 @@
         <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
         <sys_update_name>sys_app_module_62b3e1284f0ed300aa252ed18110c715</sys_update_name>
         <sys_updated_by>saurav.sarkar</sys_updated_by>
-        <sys_updated_on>2018-06-07 15:26:04</sys_updated_on>
+        <sys_updated_on>2018-10-24 07:47:26</sys_updated_on>
         <timeline_page/>
         <title>Team Members</title>
         <uncancelable>false</uncancelable>
