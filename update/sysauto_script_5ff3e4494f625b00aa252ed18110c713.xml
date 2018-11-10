@@ -62,9 +62,9 @@ function createTaskDetail(date,startDateTime,endDateTime){
 				taskDetail.insert();
 			}
 			if(previousProject != metrics.wrk_project.toString()){
-				taskDetail.metrics = taskDetail.metrics + "\n" + metrics.wrk_project.short_description.toString() + "-\n";
+				taskDetail.tasks = taskDetail.tasks + "\n" + metrics.wrk_project.short_description.toString() + "-\n";
 				if(previousProject == ""){
-					taskDetail.metrics = metrics.wrk_project.short_description.toString() + "-\n";
+					taskDetail.tasks = metrics.wrk_project.short_description.toString() + "-\n";
 				}
 				index=1;
 			}
@@ -88,14 +88,14 @@ function getMilliSeconds(date){
         <sys_created_by>saurav.sarkar</sys_created_by>
         <sys_created_on>2018-06-05 10:14:13</sys_created_on>
         <sys_id>5ff3e4494f625b00aa252ed18110c713</sys_id>
-        <sys_mod_count>30</sys_mod_count>
+        <sys_mod_count>37</sys_mod_count>
         <sys_name>Populate 'Task Details for Provisional Invoice'</sys_name>
         <sys_package display_value="IT services operation management" source="x_224218_itsom">6fd1341c4f4e9300aa252ed18110c744</sys_package>
         <sys_policy/>
         <sys_scope display_value="IT services operation management">6fd1341c4f4e9300aa252ed18110c744</sys_scope>
         <sys_update_name>sysauto_script_5ff3e4494f625b00aa252ed18110c713</sys_update_name>
         <sys_updated_by>saurav.sarkar</sys_updated_by>
-        <sys_updated_on>2018-11-05 11:43:20</sys_updated_on>
+        <sys_updated_on>2018-11-10 11:06:13</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

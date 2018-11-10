@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="calendar_elements=short_description" audit="true" extends="task" label="To Do List" max_length="40" name="x_224218_itsom_to_do_list" sizeclass="116" type="collection">
+    <element attributes="calendar_elements=short_description" audit="true" extends="task" label="To Do List" max_length="40" name="x_224218_itsom_to_do_list" sizeclass="139" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Total WIP time" max_length="40" name="actual_hours" type="glide_duration"/>
         <element attributes="edge_encryption_enabled=true" label="Estimated hours" mandatory="true" max_length="40" name="estimated_hours" type="glide_duration"/>
         <element attributes="edge_encryption_enabled=true" label="Project" max_length="32" name="project" reference="pm_project" type="reference"/>
